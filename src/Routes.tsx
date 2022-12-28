@@ -11,11 +11,13 @@ export const Routes = () => {
       navLinks={[
         { label: 'Home', href: '/' },
         { label: 'Form Test', href: '/formtest' },
+        { label: 'Mint', href: '/mint' },
       ]}
     >
       <Router>
         <Route path="/" element={<Home />} />
         <Route path="/formtest" element={<FormTest />} />
+        <Route path="/mint" element={<FormTest />} />
       </Router>
     </DHLayout>
   );
