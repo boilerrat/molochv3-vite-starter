@@ -4,7 +4,7 @@ import { TXBuilder } from '@daohaus/tx-builder';
 
 import { FORM } from '../legos/forms';
 
-export const FormTest = () => {
+export const Stakeeth = () => {
   const { provider } = useDHConnect();
 
   return (
